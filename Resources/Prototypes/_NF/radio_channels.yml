@@ -10,7 +10,7 @@
 - type: radioChannel
   id: Traffic
   name: chat-radio-traffic
-  keycode: 'd'
+  keycode: 'т' #Aspis Changes
   frequency: 1022
   color: "#CC6633"
   maxRange: 750
@@ -18,7 +18,6 @@
 - type: radioChannel
   id: Nfsd
   name: chat-radio-ncmc
-  keycode: 's'
+  keycode: 'а' #Aspis Changes
   frequency: 1023
   color: "#0c8ad3"
-
