@@ -106,6 +106,7 @@
     lowPressureMultiplier: 1000
   - type: RadarConsole
     followEntity: true
+    noRotate: true
   - type: ActivatableUI
     key: enum.RadarConsoleUiKey.Key
     singleUser: true
@@ -160,9 +161,15 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitOfficerCombat
+<<<<<<< HEAD
   name: KA Claymore tacsuit helmet
   description: Highly armored helmet. It's visor grants enhanced battlefield awareness with It's built-in command control map.
   categories: [ HideSpawnMenu ]  
+=======
+  name: USSP UF-16 "Voenkom" commissar tacsuit helmet
+  description: Cold, imposing, and unmistakably Union -- developed to instill discipline and fear. It's visor grants enhanced battlefield awareness with It's built-in command control map. Ideal for Commissars overseeing frontline operations.
+  categories: [ HideSpawnMenu ]
+>>>>>>> upstream/main
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ussp_officer_combat.rsi
@@ -175,6 +182,7 @@
     lowPressureMultiplier: 1000
   - type: RadarConsole
     followEntity: true
+    noRotate: true
   - type: ActivatableUI
     key: enum.RadarConsoleUiKey.Key
     singleUser: true
