@@ -77,12 +77,8 @@
 
 - type: company
   id: USSP
-<<<<<<< HEAD
   form: Antagonist
   name: Kristy Association
-=======
-  name: USSP
->>>>>>> upstream/main
   color: "#B01340"
   disabled: false # Mercs are now USSP-pilled.
   description: ussp-description
