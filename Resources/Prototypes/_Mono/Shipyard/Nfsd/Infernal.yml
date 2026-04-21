@@ -6,8 +6,8 @@
   name: TSF-PIN Infernal
   description: Attack ship with the main armament of CHARON and 220 guns.
   limit: 6
-  price: 270000
-  category: Large
+  price: 265433
+  category: Medium
   group: Security
   access: Security
   shuttlePath: /Maps/_Mono/Shuttles/Nfsd/Infernal.yml
