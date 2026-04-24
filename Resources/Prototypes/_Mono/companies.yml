@@ -168,12 +168,8 @@
 
 - type: company
   id: paycheckbratva
-<<<<<<< HEAD
   form: Antagonist
   name: The Seventh Gang
-=======
-  name: Paycheck Bratva
->>>>>>> upstream/main
   description: paycheck-bratva-description
   color: "#7a0303"
 
