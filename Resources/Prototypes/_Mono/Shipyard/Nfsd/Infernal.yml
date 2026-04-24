@@ -6,7 +6,7 @@
   name: TSF-PIN Infernal
   description: Attack ship with the main armament of CHARON and 220 guns.
   limit: 6
-  price: 265000
+  price: 285000
   category: Medium
   group: Security
   access: Security
