@@ -32,7 +32,7 @@ namespace Content.Shared.Preferences
 
         public const int MaxNameLength = 64;
         public const int MaxLoadoutNameLength = 32;
-        public const int MaxDescLength = 512;
+        public const int MaxDescLength = 1024; // Aspis: 512 -> 1024
 
         public const int DefaultBalance = 75000;
 

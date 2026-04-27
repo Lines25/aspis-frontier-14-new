@@ -55,8 +55,8 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
         EyeColor = ClampColor(eyeColor);
         SkinColor = ClampColor(skinColor);
         Markings = markings;
-        Height = height <= 0.005f ? 1.0f : height;
-        Width = width <= 0.005f ? 1.0f : width;
+        Height = height <= 0.499f ? 1.0f : height;
+        Width = width <= 0.499f ? 1.0f : width;
     }
 
     public HumanoidCharacterAppearance(HumanoidCharacterAppearance other) :
