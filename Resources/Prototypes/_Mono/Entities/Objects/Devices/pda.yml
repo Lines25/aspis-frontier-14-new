@@ -38,27 +38,6 @@
     id: USSPRiflemanIDCard
   - type: Appearance
     appearanceDataInit:
-<<<<<<< HEAD
-     enum.PdaVisuals.PdaType:
-       !type:String
-       pda-interncadet
-  - type: PdaBorderColor
-    borderColor: "#717059"
-    accentVColor: "#A32D26"
-  - type: Icon
-    state: pda-interncadet
-
-- type: entity
-  parent: BaseUSSPMedicPDA
-  id: USSPMedicPDA
-  name: KA combat medic PDA
-  components:
-  - type: Pda
-    id: USSPMedicIDCard
-  - type: Appearance
-    appearanceDataInit:
-=======
->>>>>>> upstream/main
       enum.PdaVisuals.PdaType:
         !type:String
         pda-ussprifleman
@@ -67,26 +46,6 @@
     showControl: true
     isEnabled: true
     attachedToSuit: true # Mono
-
-<<<<<<< HEAD
-- type: entity
-  parent: BaseUSSPPDA
-  id: USSPCorporalPDA
-  name: KA Team leader PDA
-  components:
-  - type: Pda
-    id: USSPCorporalIDCard
-  - type: Appearance
-    appearanceDataInit:
-      enum.PdaVisuals.PdaType:
-        !type:String
-        pda-security
-  - type: PdaBorderColor
-    borderColor: "#A32D26"
-  - type: Icon
-    state: pda-security
-=======
->>>>>>> upstream/main
 
 - type: entity
   parent: BaseUSSPPDA
