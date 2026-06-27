@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT2 ]
+  parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL27
   name: KA Gladius tacsuit
   description: The combat suit of Kristy contractors, outfitted with a medical hud too!
@@ -41,11 +41,9 @@
   - type: StaticPrice
     price: 1250
     vendPrice: 7500
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuit
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT0 ]
+  parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL10
   name: KA Dagger lightsuit
   description: Lightweight combat hardsuit, used by the association's light contractor troops.
@@ -87,11 +85,9 @@
   - type: StaticPrice
     price: 420
     vendPrice: 2500
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuit
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT0 ]
+  parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL10A
   name: KA Dagger lightsuit
   description: Lightweight combat hardsuit, used by the association's light contractor troops.
@@ -133,11 +129,9 @@
   - type: StaticPrice
     price: 500
     vendPrice: 3000
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuit
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT0 ]
+  parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspM10
   name: KA Stiletto scoutsuit
   description: A modification of the Dagger lightsuit. It has a integrated mass scanner in his helmet.
@@ -178,11 +172,9 @@
   - type: StaticPrice
     price: 1350
     vendPrice: 8000
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuitHighValue
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT2 ]
+  parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL30
   name: KA Falkata parade hardsuit
   description: A highly decorated hardsuit with upgraded mobility and higher quality lighter armor plates.
@@ -224,11 +216,9 @@
   - type: StaticPrice
     price: 3300
     vendPrice: 20000
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuitHighValue
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT3 ]
+  parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitOfficerCombat
   name: KA Claymore tacsuit
   description: Highly armored command tacsuit. Features enhanced plating for survivability, allowing commanders to continue to give orders even while under heavy fire.
@@ -270,5 +260,4 @@
   - type: StaticPrice
     price: 4200
     vendPrice: 25000
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuitHighValue
+
