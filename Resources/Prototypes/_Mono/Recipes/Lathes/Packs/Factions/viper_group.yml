@@ -8,3 +8,10 @@
   - ClothingOuterHardsuitViperGroupStandard
   - ClothingOuterHardsuitViperGroupMedic
   - ClothingOuterHardsuitViperGroupJuggernaut
+  - ClothingOuterHardsuitViperGroupShield
+  - ShipVoucherVGWolf
+
+- type: latheRecipePack
+  id: MonoViperGroupStatic
+  recipes:
+  - VGTechfabMachineCircuitboard

@@ -8,16 +8,16 @@
 - type: loadoutGroup
   id: PDVNeck
   name: loadout-group-contractor-neck
-  hidden: true
+  hidden: false
   minLimit: 1
   loadouts:
-  - PDVClothingNeckIFFOrange
+  - PDVClothingNeckWearableCameraPDV
 - type: loadoutGroup
   id: PDVCommanderNeck
   name: loadout-group-contractor-neck
   minLimit: 1
   loadouts:
-  - PDVClothingNeckIFFOrange
+  - PDVClothingNeckWearableCameraPDV
   - PDVClothingNeckCloakCommander
   - PDVClothingNeckCloakVizier
   - PDVClothingNeckMantleVizier
