@@ -91,8 +91,9 @@ public sealed partial class FireControlSystem : EntitySystem
                 ("usedProcessingPower", component.UsedProcessingPower),
                 ("processingPower", component.ProcessingPower),
                 ("valueColor", component.UsedProcessingPower <= component.ProcessingPower - 2 ? "green" : "yellow")
-            )
-        );
+            ));
+        if (HasComp<SpaceArtilleryDisabledGridComponent>(component.ConnectedGrid))
+            args.PushMarkup(Loc.GetString("gunnery-server-examine-pacifist-grid"));
     }
 
     private void OnControllablePowerChanged(EntityUid uid, FireControllableComponent component, PowerChangedEvent args)
@@ -496,8 +497,11 @@ public sealed partial class FireControlSystem : EntitySystem
 
         direction = Vector2.Normalize(direction);
 
+        if (!TryComp<FireControllableComponent>(weapon, out var fireControlComponent))
+            return false;
+
         // Check for obstacles in the firing direction
-        if (!CanFireInDirection(weapon, weaponPos, direction, targetPos, weaponXform.MapID))
+        if (!CanFireInDirection(weapon, weaponPos, direction, targetPos, weaponXform.MapID) && !fireControlComponent.IgnoreLos)
             return false;
 
         // Set the cooldown for next firing

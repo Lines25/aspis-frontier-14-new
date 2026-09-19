@@ -83,7 +83,7 @@
 - type: technology
   id: IndustrialEngineering
   name: research-technology-industrial-engineering
-  entityIcon: LatheUpgradeKitHyper
+  entityIcon: IndustrialPressEconomyElectronics
   discipline: Industrial
   tier: 1
   cost: 22500
@@ -97,6 +97,10 @@
   - LatheUpgradeKitHyper
   - LatheUpgradeKitCryo
   # End DeltaV Additions
+  # Begin Mono Additions
+  - IndustrialPressEconomyElectronicsMachineCircuitboard
+  - IndustrialPressEconomyPlatesMachineCircuitboard
+  # End Mono Additions
   # Begin Goobstation Additions
   - UpgradeKitAutomation
   - RoboticArmCircuitboard
@@ -162,6 +166,9 @@
   cost: 10000
   recipeUnlocks:
   - ShuttleConsoleCircuitboard
+  - ShuttleConsoleCircuitboardTSFN # Mono
+  - ShuttleConsoleCircuitboardKPV63RWR # Mono
+  - ShuttleConsoleCircuitboardANALR67RWR # Mono
   - ThrusterMachineCircuitboard
   - GyroscopeMachineCircuitboard
   - MiniGravityGeneratorCircuitboard
@@ -204,14 +211,15 @@
   - UtilityBeltChiefEngineer
   - BorgModuleAdvancedTool
   - ExperimentalNaniteApplicator # Monolith
-  # - Fulton # Frontier
-  # - FultonBeacon # Frontier
+  - Fulton
+  - FultonBeacon
   - BorgModuleJetpack # Frontier
   #- NFBlueprintPowerDrill # Frontier
   #- NFBlueprintJawsOfLife # Frontier
   #- NFBlueprintWelderExperimental # Frontier
   # Mono edit start
   - RCD
+  - RPD
   - RCDAmmo
   - ShipRepairDevice
   - ShipRepairDeviceAmmo
@@ -231,6 +239,7 @@
   recipeUnlocks:
   - OreBagOfHolding
   - MiningDrillDiamond
+  - ShipDrillMachineCircuitboard
   - AdvancedMineralScannerEmpty
   - NFBlueprintOreBagOfHolding # Frontier
   - NFBlueprintMiningDrillDiamond # Frontier
@@ -281,6 +290,18 @@
   - SuperParts
   position: -2, 7
 
+- type: technology
+  id: MaterialSilo
+  name: research-technology-ore-silo
+  entityIcon: MachineMaterialSilo
+  discipline: Industrial
+  tier: 3
+  cost: 50000
+  recipeUnlocks:
+  - MaterialSiloMachineCircuitboard
+  technologyPrerequisites:
+  - SuperParts
+  position: -1, 6
 # Mono edit - research consolidation
 # - type: technology
 #   id: RapidConstruction

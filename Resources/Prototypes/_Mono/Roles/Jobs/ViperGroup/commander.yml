@@ -4,7 +4,7 @@
   description: job-description-vg-commander
   playTimeTracker: JobVGCommander
   whitelisted: true # I'm not certain who gets this.
-  startingGear: ViperRadioGear
+  startingGear: ViperCommanderGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
   icon: "JobIconVGCommander" # TODO - new USSP icons
@@ -12,6 +12,9 @@
   canBeAntag: false
   weight: 10 #Going off the info I was given, low weight as it's a company-whitelist role.
   displayWeight: 52
+  assignedCompany: TheViperGroup
+  guides:
+  - Viper_Group
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, ViperTrackingImplant ]
@@ -23,6 +26,8 @@
     - type: NpcFactionMember
       factions:
       - VG
+    - type: ChatRank
+      rank: vg-commander
   - !type:AddLanguageSpecial
     languagesSpoken:
     - NovaCygniBasic
@@ -31,3 +36,10 @@
   accessGroups:
   - GeneralAccess
   - ViperHigh
+
+- type: startingGear
+  id: ViperCommanderGear
+  storage:
+    back:
+    - RadioHandheldNF
+    - VGHandheldOverwatchConsole
