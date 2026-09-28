@@ -210,8 +210,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandCommunistState
-  name: "Communist State"
-  description: "All hail the Communist party!"
+  name: "The Ukrainian State"
+  description: "СЛАВА УКРАЇНІ!"
   components:
   - type: Sprite
     state: poster18_contraband
